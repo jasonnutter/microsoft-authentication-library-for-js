@@ -8,15 +8,6 @@
  * - userRequestState: User given state
  */
 export type AuthResponse = {
+    authority: string;
     userRequestState: string;
 };
-
-/**
- * Builds a response that only sets state
- * @param responseState 
- */
-export function buildResponseStateOnly(responseState: string) : AuthResponse {
-    return {
-        userRequestState: responseState
-    };
-}

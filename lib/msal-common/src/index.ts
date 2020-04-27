@@ -20,7 +20,7 @@ export { ICrypto, PkceCodes } from "./crypto/ICrypto";
 export { AuthenticationParameters } from "./request/AuthenticationParameters";
 export { TokenExchangeParameters } from "./request/TokenExchangeParameters";
 export { TokenRenewParameters } from "./request/TokenRenewParameters";
-export { AuthResponse, buildResponseStateOnly } from "./response/AuthResponse";
+export { AuthResponse } from "./response/AuthResponse";
 export { TokenResponse } from "./response/TokenResponse";
 export { CodeResponse } from "./response/CodeResponse";
 // Logger Callback
